@@ -7,8 +7,8 @@ import extracurricular from "./images/extracurricular.jpg";
 function App() {
   return (
    <>
-      
-        <TopBar />
+      <div><TopBar /></div>
+        
       
       <div className="cards_container">
      

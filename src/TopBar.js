@@ -1,6 +1,5 @@
 import React from "react";
-import "./styles/navbar.css"
-
+import "./styles/navbar.css";
 
 function TopBar() {
   return (
@@ -25,14 +24,17 @@ function TopBar() {
       </button>
       <div className="navigation-menu">
         <ul>
+          {/* <li>
+            <input type="text" placeholder="Search.."></input>
+          </li> */}
           <li>
-            <a href="/home">Home</a>
+            <a href="/home">UNLIMITED TV SHOWS AND MOVIES</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <button className="join">JOIN NOW</button>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <button className="signin">Sign In</button>
           </li>
         </ul>
       </div>
@@ -40,4 +42,4 @@ function TopBar() {
   );
 }
 
-export {TopBar};
+export { TopBar };

@@ -6,11 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 1rem;
+  padding: 1rem; */
   /* background-image: url("./images/netflix.jpg");
 
   /* Full height */

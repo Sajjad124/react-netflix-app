@@ -16,6 +16,7 @@
     font-size: 1.3rem;
     margin-left: 1rem;
     color: red;
+    font-size: 2.5rem;
   }
   .navigation-menu {
     margin-left: auto;
@@ -59,7 +60,24 @@
   }
   a{
     color: white;
+    padding: 10px;
   }
-  .navigation-menu a:hover{
-    color: red;
+  .navigation-menu li input{
+    padding: 5px;
+    border-radius: 20px;
+    width: 300px;
+  }
+  .navigation-menu li .join{
+    width: 100px;
+    background-color: red;
+    padding: 10px;
+    color: white;
+  }
+  .navigation-menu li .signin{
+    width: 90px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px;
+    color: white;
+    
   }
