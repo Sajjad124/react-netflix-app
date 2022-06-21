@@ -44,3 +44,12 @@ body {
   gap: 4rem;
   flex-wrap: wrap;
 }
+.cards_container div:hover {
+  filter: grayscale(0);
+}
+ .card:hover  {
+  transform: scale(1.05);
+}
+.cards_container:hover div:not(:hover) {
+  filter: grayscale(1) 
+ }

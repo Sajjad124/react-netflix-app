@@ -60,3 +60,6 @@
   a{
     color: white;
   }
+  .navigation-menu a:hover{
+    color: red;
+  }
