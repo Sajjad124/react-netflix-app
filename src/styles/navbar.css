@@ -69,15 +69,20 @@
   }
   .navigation-menu li .join{
     width: 100px;
-    background-color: red;
+    background-color: rgb(176, 35, 35);
     padding: 10px;
     color: white;
+  }
+  .navigation-menu li .join:hover{
+    background-color: rgb(195, 44, 44); ;
   }
   .navigation-menu li .signin{
     width: 90px;
     background-color: transparent;
     border: 1px solid white;
-    padding: 8px;
+    padding: 10px;
     color: white;
-    
+  }
+  .navigation-menu li .signin:hover{
+    background-color: rgba(80, 74, 74, 0.3);
   }
