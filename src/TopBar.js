@@ -31,10 +31,10 @@ function TopBar() {
             <a href="/home">UNLIMITED TV SHOWS AND MOVIES</a>
           </li>
           <li>
-            <button className="join">JOIN NOW</button>
+            <a href="https://www.netflix.com/pk/"><button className="join">JOIN NOW</button></a>
           </li>
           <li>
-            <button className="signin">Sign In</button>
+            <a href="https://www.netflix.com/pk/login"><button className="signin">Sign In</button></a>
           </li>
         </ul>
       </div>
