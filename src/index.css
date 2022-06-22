@@ -23,6 +23,7 @@ body {
 }
 
 .card {
+  border-radius: 20px;
   width: 16rem;
   display: flex;
   justify-content: center;
@@ -31,6 +32,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
 .card__img {
+  border-radius: 10px;
   width: 16rem;
   height: 17rem;
 }

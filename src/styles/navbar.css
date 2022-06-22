@@ -1,28 +1,28 @@
 .navigation {
-    height: 60px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding: 0.5rem 0rem;
-    background-color: rgb(26, 23, 23);
-    color: black;
-    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
-  }
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: rgb(26, 23, 23);
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
 
-  .brand-name {
-    text-decoration: none;
-    color: black;
-    font-size: 1.3rem;
-    margin-left: 1rem;
-    color: red;
-    font-size: 2.5rem;
-  }
-  .navigation-menu {
-    margin-left: auto;
-  }
+.brand-name {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  color: red;
+  font-size: 2.5rem;
+}
+.navigation-menu {
+  margin-left: auto;
+}
 
-  /* // navbar.css */
+/* // navbar.css */
 .navigation-menu ul {
   display: flex;
   padding: 0;
@@ -39,50 +39,50 @@
   width: 100%;
 }
 .hamburger {
-    /* // removes default border on button element */
-    border: 0;
-    height: 40px;
-    width: 40px;
-    padding: 0.5rem;
-    border-radius: 50%;
-    background-color: #ffffff;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
+  /* // removes default border on button element */
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
   /* // positions the icon to the right and center aligns it vertically */
-    position: absolute;
-    top: 50%;
-    right: 25px;
-    transform: translateY(-50%);
-    display: none;
-  }
-  .hamburger:hover {
-    background-color: #feffff;
-  }
-  a{
-    color: white;
-    padding: 10px;
-  }
-  .navigation-menu li input{
-    padding: 5px;
-    border-radius: 20px;
-    width: 300px;
-  }
-  .navigation-menu li a .join{
-    width: 100px;
-    background-color: rgb(176, 35, 35);
-    padding: 10px;
-    color: white;
-  }
-  .navigation-menu li a .join:hover{
-    background-color: rgb(195, 44, 44); ;
-  }
-  .navigation-menu li a .signin{
-    width: 90px;
-    background-color: transparent;
-    border: 1px solid white;
-    padding: 10px;
-    color: white;
-  }
-  .navigation-menu li a .signin:hover{
-    background-color: rgba(80, 74, 74, 0.3);
-  }
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: #feffff;
+}
+a {
+  color: white;
+  padding: 10px;
+}
+.navigation-menu li input {
+  padding: 5px;
+  border-radius: 20px;
+  width: 300px;
+}
+.navigation-menu li a .join {
+  width: 100px;
+  background-color: rgb(202, 42, 42);
+  padding: 10px;
+  color: white;
+}
+.navigation-menu li a .join:hover {
+  background-color: rgb(195, 44, 44);
+}
+.navigation-menu li a .signin {
+  width: 90px;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+}
+.navigation-menu li a .signin:hover {
+  background-color: rgba(80, 74, 74, 0.3);
+}

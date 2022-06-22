@@ -3,15 +3,15 @@ import "./App.css";
 import { Card } from "./Card";
 import { TopBar } from "./TopBar";
 import extracurricular from "./images/extracurricular.jpg";
+import Sdata from "./Sdata";
 
 function App() {
   return (
-   <>
-      <div><TopBar /></div>
-        
-      
+    <>
+      <div>
+        <TopBar />
+      </div>
       <div className="cards_container">
-     
         <Card
           src="https://wallpapercave.com/wp/wp4056410.jpg"
           title="A Netflix original series"
@@ -31,7 +31,7 @@ function App() {
           link="https://www.youtube.com/watch?v=b9EkMc79ZSU"
         />
       </div>
-      </>
+    </>
   );
 }
 

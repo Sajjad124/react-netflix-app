@@ -24,17 +24,18 @@ function TopBar() {
       </button>
       <div className="navigation-menu">
         <ul>
-          {/* <li>
-            <input type="text" placeholder="Search.."></input>
-          </li> */}
           <li>
             <a href="/home">UNLIMITED TV SHOWS AND MOVIES</a>
           </li>
           <li>
-            <a href="https://www.netflix.com/pk/"><button className="join">JOIN NOW</button></a>
+            <a href="https://www.netflix.com/pk/">
+              <button className="join">JOIN NOW</button>
+            </a>
           </li>
           <li>
-            <a href="https://www.netflix.com/pk/login"><button className="signin">Sign In</button></a>
+            <a href="https://www.netflix.com/pk/login">
+              <button className="signin">Sign In</button>
+            </a>
           </li>
         </ul>
       </div>
