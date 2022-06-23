@@ -5,6 +5,7 @@ import { TopBar } from "./TopBar";
 import extracurricular from "./images/extracurricular.jpg";
 import Sdata from "./Sdata";
 
+// console.log(Sdata[0]);
 function App() {
   return (
     <>
@@ -13,12 +14,26 @@ function App() {
       </div>
       <div className="cards_container">
         <Card
-          src="https://wallpapercave.com/wp/wp4056410.jpg"
-          title="A Netflix original series"
-          sname="DARK"
-          link="https://www.youtube.com/watch?v=rrwycJ08PSA"
+          src={Sdata[0].src}
+          title={Sdata[0].title}
+          sname={Sdata[0].sname}
+          link={Sdata[0].link}
         />
         <Card
+          src={Sdata[1].src}
+          title={Sdata[1].title}
+          sname={Sdata[1].sname}
+          link={Sdata[1].link}
+        />
+        <Card
+          src={Sdata[2].src}
+          title={Sdata[2].title}
+          sname={Sdata[2].sname}
+          link={Sdata[2].link}
+        />
+
+
+        {/* <Card
           src={extracurricular}
           title="A Netflix original series"
           sname="Extra Curricular"
@@ -29,7 +44,7 @@ function App() {
           title="A Netflix original series"
           sname="Stranger Things"
           link="https://www.youtube.com/watch?v=b9EkMc79ZSU"
-        />
+        /> */}
       </div>
     </>
   );
