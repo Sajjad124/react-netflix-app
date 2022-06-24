@@ -1,4 +1,4 @@
-import extracurricular from './images/extracurricular.jpg';
+import extracurricular from "./images/extracurricular.jpg";
 
 const Sdata = [
   {
@@ -49,7 +49,5 @@ const Sdata = [
     sname: "Stranger Things",
     link: "https://www.youtube.com/watch?v=b9EkMc79ZSU",
   },
-
 ];
 export default Sdata;
-

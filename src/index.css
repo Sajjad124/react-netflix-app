@@ -19,7 +19,7 @@ body {
   /* Center and scale the image nicely */
   /* background-position: center;
   background-repeat: no-repeat;
-  background-size: cover */ 
+  background-size: cover */
 }
 
 .card {
@@ -30,7 +30,6 @@ body {
   flex-direction: column;
   gap: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
- 
 }
 .card__img {
   border-radius: 10px;
@@ -50,16 +49,16 @@ body {
 .cards_container div:hover {
   filter: grayscale(0);
 }
- .card:hover  {
+.card:hover {
   transform: scale(1.05);
 }
 .cards_container:hover div:not(:hover) {
-  filter: grayscale(1) 
- }
- .card__info a button{
+  filter: grayscale(1);
+}
+.card__info a button {
   border-radius: 5px;
   padding: 5px;
   margin-left: -10px;
   cursor: pointer;
   border: 2px solid grey;
- }
+}
