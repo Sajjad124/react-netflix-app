@@ -6,6 +6,18 @@ import extracurricular from "./images/extracurricular.jpg";
 import Sdata from "./Sdata";
 
 // console.log(Sdata[0]);
+// there are three parameters of map function array.map(function(currentvalue,index,array))
+// function NetflixCard(value) {
+//   console.log(value);
+//   return (
+//     <Card
+//       src={value.src}
+//       title={value.title}
+//       sname={value.sname}
+//       link={value.link}
+//     />
+//   );
+// }
 function App() {
   return (
     <>
@@ -13,13 +25,20 @@ function App() {
         <TopBar />
       </div>
       <div className="cards_container">
-        <Card
-          src={Sdata[0].src}
-          title={Sdata[0].title}
-          sname={Sdata[0].sname}
-          link={Sdata[0].link}
-        />
-        <Card
+        {/* fat arrow function */}
+        {Sdata.map((value,index)=> {
+
+          return (
+            <Card
+              src={value.src}
+              title={value.title}
+              sname={value.sname}
+              link={value.link}
+            />
+          );
+        })}
+        {/* commented to use the map function on just one card to avoid repititon in code */}
+        {/* <Card
           src={Sdata[1].src}
           title={Sdata[1].title}
           sname={Sdata[1].sname}
@@ -30,9 +49,7 @@ function App() {
           title={Sdata[2].title}
           sname={Sdata[2].sname}
           link={Sdata[2].link}
-        />
-
-
+        /> */}
         {/* <Card
           src={extracurricular}
           title="A Netflix original series"
@@ -51,3 +68,12 @@ function App() {
 }
 
 export default App;
+
+
+
+// function myname(Sajjad){
+//   return Sajjad;
+// }
+// let a = 10;
+// let b = 10;
+// const name = (a,b) =>  a+b; //for single line of code there is no need to add curly parenthesis
