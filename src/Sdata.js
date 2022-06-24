@@ -8,7 +8,7 @@ const Sdata = [
     link: "https://www.youtube.com/watch?v=rrwycJ08PSA",
   },
   {
-    src: { extracurricular },
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9a/Extracurricular_2020.jpg",
     title: "A Netflix original series",
     sname: "Extra Curricular",
     link: "https://www.youtube.com/watch?v=aV_DBz2rKsI",

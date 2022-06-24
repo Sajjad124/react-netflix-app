@@ -30,7 +30,7 @@ body {
   flex-direction: column;
   gap: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-  background-color: grey;
+ 
 }
 .card__img {
   border-radius: 10px;
@@ -55,4 +55,11 @@ body {
 }
 .cards_container:hover div:not(:hover) {
   filter: grayscale(1) 
+ }
+ .card__info a button{
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: -10px;
+  cursor: pointer;
+  border: 2px solid grey;
  }
