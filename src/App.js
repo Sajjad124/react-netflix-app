@@ -1,8 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Card } from "./Card";
 import { TopBar } from "./TopBar";
-import extracurricular from "./images/extracurricular.jpg";
 import Sdata from "./Sdata";
 
 function App() {
@@ -16,6 +14,7 @@ function App() {
         {Sdata.map((value, index) => {
           return (
             <Card
+              key={value.id}
               src={value.src}
               title={value.title}
               sname={value.sname}
