@@ -47,6 +47,6 @@ body {
   cursor: pointer;
   border: 2px solid grey;
 }
-.card__info a button:hover{
+.card__info a button:hover {
   border: 1px solid black;
 }

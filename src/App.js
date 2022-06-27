@@ -3,7 +3,7 @@ import { Card } from "./Card";
 import { TopBar } from "./TopBar";
 import Sdata from "./Sdata";
 
-const App = () =>{
+const App = () => {
   return (
     <>
       <div>
@@ -25,6 +25,6 @@ const App = () =>{
       </div>
     </>
   );
-}
+};
 
 export default App;
