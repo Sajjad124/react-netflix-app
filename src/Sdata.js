@@ -1,5 +1,3 @@
-
-
 const Sdata = [
   {
     id: 1,

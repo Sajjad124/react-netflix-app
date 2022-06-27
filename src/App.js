@@ -3,7 +3,7 @@ import { Card } from "./Card";
 import { TopBar } from "./TopBar";
 import Sdata from "./Sdata";
 
-function App() {
+const App = () =>{
   return (
     <>
       <div>
