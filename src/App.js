@@ -6,7 +6,6 @@ import Netflix from "./Netflix";
 import Amazon from "./Amazon";
 
 const favSeries = "Netflix";
-
 const FavS = () => {
   if (favSeries === "Netflix") {
     return <Netflix />;
