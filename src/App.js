@@ -3,6 +3,23 @@ import { Card } from "./Card";
 import { TopBar } from "./TopBar";
 import Sdata from "./Sdata";
 
+const favSeries = "Netflix";
+
+const FavS = () => {
+  if (favSeries === "Netflix") {
+    return (
+      <Card
+        key={Sdata[0].id}
+        src={Sdata[0].src}
+        title={Sdata[0].title}
+        sname={Sdata[0].sname}
+        link={Sdata[0].link}
+      />
+    );
+  } else {
+  }
+};
+
 const App = () => {
   return (
     <>
