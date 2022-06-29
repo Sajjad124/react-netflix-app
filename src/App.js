@@ -3,7 +3,7 @@ import { Card } from "./Card";
 import { TopBar } from "./TopBar";
 import Sdata from "./Sdata";
 
-const favSeries = "Netfli";
+const favSeries = "Netflix";
 
 const FavS = () => {
   if (favSeries === "Netflix") {
