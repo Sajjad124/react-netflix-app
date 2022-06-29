@@ -1,5 +1,5 @@
 import "./App.css";
-import { Card } from "./Card";
+// import { Card } from "./Card";
 import { TopBar } from "./TopBar";
 import Sdata from "./Sdata";
 import Netflix from "./Netflix";
@@ -13,7 +13,6 @@ const FavS = () => {
     return <Amazon />;
   }
 };
-
 const App = () => {
   return (
     <>
