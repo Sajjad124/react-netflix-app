@@ -5,7 +5,7 @@ import Sdata from "./Sdata";
 import Netflix from "./Netflix";
 import Amazon from "./Amazon";
 
-const favSeries = "Netflix";
+const favSeries = "Amazon";
 // const FavS = () => {
 //   if (favSeries === "Netflix") {
 //     return <Netflix />;
